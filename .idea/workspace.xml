@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1556c4-0303-4986-9c98-83b4008d3fd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/homeStyleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566324953482</updated>
-      <workItem from="1566324954724" duration="13434000" />
+      <workItem from="1566324954724" duration="13531000" />
     </task>
     <task id="LOCAL‎00001" summary="add">
       <created>1566329575124</created>
@@ -97,7 +95,13 @@
       <option name="presentableId" value="LOCAL‎00006" />
       <updated>1566339033616</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎00007" summary="add border">
+      <created>1566339805430</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1566339805430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +124,7 @@
     <MESSAGE value="ad the option to add some notes" />
     <MESSAGE value="to mobile" />
     <MESSAGE value="change text size" />
-    <option name="LAST_COMMIT_MESSAGE" value="change text size" />
+    <MESSAGE value="add border" />
+    <option name="LAST_COMMIT_MESSAGE" value="add border" />
   </component>
 </project>
