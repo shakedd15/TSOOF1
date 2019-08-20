@@ -1,0 +1,21 @@
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#1{
+    text-align: center;
+}
+
+#listText{
+    color: white;
+    font-family: cursive;
+    font-size: 156%;
+}
+
+body{
+    background-color: black;
+    direction: rtl;
+}
