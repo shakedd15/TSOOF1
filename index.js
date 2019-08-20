@@ -34,10 +34,10 @@ window.onload = function() {
     });
     this.dataObject = JSON.parse(list);
 
-    createListPlease(list);
+    createListPlease();
 };
 
-function createListPlease(dataJSON) {
+function createListPlease() {
     var listItemString = $('#listItem').html();
     Object.keys(this.dataObject).forEach(buildNewList);
 
@@ -81,6 +81,19 @@ function saveChanges() {
     });
 }
 
+function addToList() {
+    var name = document.getElementById("added").value;
+    this.dataObject[name] = "false";
+
+    var listItemString = $('#listItem').html();
+    var listItem = $('<li style="color: white;\n' +
+        'font-family: cursive;\n' +
+        'font-size: 156%;">' + listItemString + '</li>');
+    var listItemTitle = $('.title', listItem);
+    var insert = "<input type=\"checkbox\" onclick=\"checking(this)\" id=\"" + name + "\">" + name;
+    listItemTitle.html(insert);
+    $('#dataList').append(listItem);
+}
 
 // {
 //     "shaked": "true",
