@@ -44,7 +44,7 @@ function createListPlease() {
     function buildNewList(item) {
         var listItem = $('<li style="color: white;\n' +
             'font-family: cursive;\n' + 'text-align: center;' +
-            'font-size: 250%;">' + listItemString + '</li>');
+            'font-size: 200%;">' + listItemString + '</li>');
         var listItemTitle = $('.title', listItem);
         var insert = "<input type=\"checkbox\" onclick=\"checking(this)\" id=\"" + item + "\">" + item;
         listItemTitle.html(insert);
@@ -88,7 +88,7 @@ function addToList() {
     var listItemString = $('#listItem').html();
     var listItem = $('<li style="color: white;\n' +
         'font-family: cursive;\n' + 'text-align: center;' +
-        'font-size: 250%;">' + listItemString + '</li>');
+        'font-size: 200%;">' + listItemString + '</li>');
     var listItemTitle = $('.title', listItem);
     var insert = "<input type=\"checkbox\" onclick=\"checking(this)\" id=\"" + name + "\">" + name;
     listItemTitle.html(insert);
