@@ -42,9 +42,12 @@ function createListPlease() {
     Object.keys(this.dataObject).forEach(buildNewList);
 
     function buildNewList(item) {
-        var listItem = $('<li style="color: white;\n' +
-            'font-family: cursive;\n' + 'text-align: center;' +
-            'font-size: 200%;">' + listItemString + '</li>');
+        var listItem = "";
+        if(this.dataObject[item] == "true"){
+            listItem = $('<dt class="strikeout">' + listItemString + '</dt>');
+        } else{
+            listItem = $('<dt class="regular">' + listItemString + '</dt>');
+        }
         var listItemTitle = $('.title', listItem);
         var insert = "<input type=\"checkbox\" onclick=\"checking(this)\" id=\"" + item + "\">" + item;
         listItemTitle.html(insert);
